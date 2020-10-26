@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat</title>
+    <link href="chat.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <div class="wrapper" id="feed-wrapper">
+      <ul id="feed">
+      </ul>
+    </div>
+    <form id="name">
+      <input type="text" id="user">
+      <input type="text" id="room">
+      <button>Join</button>
+    </form>
+    <form id="chat">
+      <input type="text" id="message">
+      <button id="send">Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>

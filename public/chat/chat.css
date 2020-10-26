@@ -1,0 +1,27 @@
+ul {
+  list-style: none
+}
+
+li {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.me {
+  background-color: blue;
+  color: white;
+  float: right
+}
+.them {
+  float: left;
+  background-color: grey
+}
+
+.wrapper {
+  padding: 30px;
+  padding-left: 10px;
+  max-height: 300px;
+  width: 500px;
+  overflow-y: scroll;
+}
